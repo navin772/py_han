@@ -73,8 +73,8 @@ with col[4]:
 
 
 word = "_ " * len(text) 
-limit = 0  #for attemted permissible inputs; which I took 4 more than the length of the word
-count = 1  #for counting the input
+limit = 0 
+count = 1
 letters = ['', '', '', '', '', '','','','','','','','','','']
 
 u.markdown( f"<h1 style='text-align: center; color: red;'>{word}</h1>", unsafe_allow_html=True)
